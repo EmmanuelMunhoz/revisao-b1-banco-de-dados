@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Diagrama entidade-relacionamento da questão 71</title>
+  <desc id="desc">Funcionário gerencia departamentos em cardinalidade um para muitos. Funcionário possui atributos identificador, data de nascimento, nome, CPF, telefone multivalorado e idade derivada. Departamento possui identificador e nome.</desc>
+  <style>
+    text{font-family:system-ui,sans-serif;fill:#eaf2ff;font-size:17px} .shape{fill:#17233b;stroke:#70a7ff;stroke-width:3}.line{stroke:#8ca4c8;stroke-width:2;fill:none}.key{text-decoration:underline}.derived{stroke-dasharray:9 6}.label{font-weight:700;font-size:20px}.card{font-size:24px;font-weight:800;fill:#87f2c4}
+  </style>
+  <rect width="960" height="560" rx="24" fill="#0b1220"/>
+  <path class="line" d="M250 280H388M572 280H710"/><text class="card" x="350" y="267">1</text><text class="card" x="610" y="267">N</text>
+  <rect class="shape" x="80" y="235" width="190" height="90" rx="8"/><text class="label" x="175" y="288" text-anchor="middle">Funcionário</text>
+  <path class="shape" d="M480 220 575 280 480 340 385 280Z"/><text class="label" x="480" y="287" text-anchor="middle">Gerencia</text>
+  <rect class="shape" x="700" y="235" width="190" height="90" rx="8"/><text class="label" x="795" y="288" text-anchor="middle">Departamento</text>
+  <path class="line" d="M120 235 85 150M160 235 160 105M205 235 255 150M110 325 78 410M170 325 175 455M230 325 285 415"/>
+  <ellipse class="shape" cx="75" cy="125" rx="68" ry="34"/><text class="key" x="75" y="131" text-anchor="middle">id_funcionario</text>
+  <ellipse class="shape" cx="175" cy="67" rx="93" ry="34"/><text x="175" y="73" text-anchor="middle">data_nascimento</text>
+  <ellipse class="shape" cx="290" cy="125" rx="61" ry="34"/><text x="290" y="131" text-anchor="middle">Nome</text>
+  <ellipse class="shape" cx="60" cy="445" rx="48" ry="34"/><text x="60" y="451" text-anchor="middle">CPF</text>
+  <ellipse class="shape" cx="180" cy="485" rx="72" ry="42"/><ellipse class="shape" cx="180" cy="485" rx="65" ry="35"/><text x="180" y="491" text-anchor="middle">Telefone</text>
+  <ellipse class="shape derived" cx="310" cy="445" rx="58" ry="34"/><text x="310" y="451" text-anchor="middle">Idade</text>
+  <path class="line" d="M755 235 720 145M835 235 865 145"/>
+  <ellipse class="shape" cx="690" cy="115" rx="88" ry="34"/><text class="key" x="690" y="121" text-anchor="middle">id_departamento</text>
+  <ellipse class="shape" cx="880" cy="115" rx="62" ry="34"/><text x="880" y="121" text-anchor="middle">Nome</text>
+</svg>

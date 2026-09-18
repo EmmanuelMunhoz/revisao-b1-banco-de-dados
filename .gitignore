@@ -1,0 +1,13 @@
+_backup_pre_polimento/
+_backup_pre_polimento_final/
+_backup_pre_github_pages/
+_nao_classificados/
+pdfs_conteudos/
+docs/
+*.tmp
+Thumbs.db
+.DS_Store
+POLIMENTO_*.md
+PATCH_*.md
+PROJETO_REVISAO_BANCO_CODEX.md
+MIGRACAO_GITHUB_PAGES_CODEX.md

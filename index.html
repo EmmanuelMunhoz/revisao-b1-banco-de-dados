@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Revisão B1 - Modelagem de Banco de Dados</title>
+  <link rel="stylesheet" href="app/css/styles.css">
+  <script defer src="app/js/modules.js"></script>
+  <script defer src="app/js/questions.js"></script>
+  <script defer src="app/js/storage.js"></script>
+  <script defer src="app/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header">
+    <div class="header-copy">
+      <button id="home-button" class="brand-button" type="button" aria-label="Ir para o início">
+        <span class="brand-mark" aria-hidden="true">DB</span>
+        <span><strong>Revisão B1</strong><small>Modelagem de Banco de Dados</small></span>
+      </button>
+      <p>Vídeos + exercícios do material do professor</p>
+    </div>
+    <div class="header-actions" aria-label="Ações do portal">
+      <button id="simulation-button" class="button button-primary" type="button">Simulado Geral</button>
+      <button id="settings-button" class="button button-settings" type="button" aria-label="Abrir configurações e dados">⚙ Configurações</button>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+    </div>
+    <section id="global-stats" class="global-stats" aria-label="Progresso geral"></section>
+    <section id="module-topbar" class="module-topbar" aria-label="Resumo do módulo" hidden>
+      <button id="module-back-button" class="button button-link" type="button">← Módulos</button>
+      <div id="module-topbar-title" class="module-topbar-title"></div>
+      <div id="module-topbar-stats" class="module-topbar-stats"></div>
+    </section>
+  </header>
+
+  <div id="storage-warning" class="notice notice-warning storage-warning" role="status" hidden>
+    O navegador bloqueou o armazenamento local. O progresso ficará nesta sessão; use exportar para guardar uma cópia.
+  </div>
+
+  <main id="conteudo" tabindex="-1"></main>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="modal-root" class="modal-backdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Fechar">×</button>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+
+  <noscript><p class="notice notice-error">Ative o JavaScript do navegador para usar os exercícios.</p></noscript>
+</body>
+</html>

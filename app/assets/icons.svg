@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <symbol id="check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="m5 12 4 4L19 6"/></symbol>
+  <symbol id="arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="m9 18 6-6-6-6"/></symbol>
+  <symbol id="play" viewBox="0 0 24 24"><path fill="currentColor" d="m8 5 11 7-11 7z"/></symbol>
+</svg>
